@@ -1,0 +1,117 @@
+body{
+    min-height: 73vh;
+    width: 100;
+    background-position: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom:150px;
+    background: linear-gradient(
+      rgba(178, 240, 255, 0.8),
+      rgba(213, 183, 255, 0.7),
+      rgba(163, 145, 255, 0.7),
+      rgba(87, 39, 230, 0.9)
+      );
+    background-size: cover; 
+}
+
+#heading
+{   
+    position: absolute;
+	left:10%;
+    width: 1000px;
+	background: rgba(255,255,255,0.5);
+	padding: 20px;
+	/* border: 1px solid #00038c; */
+	box-shadow: 0 0 8px 3px #fff;
+}
+#text
+{
+	text-align: center;
+}
+#quiz
+{
+        color: #000;
+	    height: 330px;
+    	width: 60%;
+    	position: absolute;
+    	left:18%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+	
+}
+#question
+{
+   padding: 20px;
+   font-size: 22px;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: rgb(0, 0, 0);
+}
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	background: rgba(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	color: rgb(0, 0, 0);
+	border: 2px solid #008CBA; 
+	border-radius: 5px;
+}
+
+.option:hover{
+	background: #6769ff;
+	color: rgb(0, 0, 0);	
+}
+#next
+{
+	font-family: 'Macondo', cursive; 
+	background-color: #6769ff;
+	width:10%;
+	height: 4%px;
+    bottom: 0.1;
+	border: 1px solid #6769ff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	float: right;
+	padding: 10px 10px;
+	
+}
+#next:hover{
+	background-color:rgb(106, 90, 205)
+}
+#quit
+{
+	position: absolute;
+	right:    0;
+    bottom:   0;
+    font-family: 'Macondo', cursive; 
+	background-color:  #6769ff;
+	border: 1px solid #6769ff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	float: right;
+	padding: 10px 10px;
+	
+}
+#quit:hover{
+		background-color:rgb(106, 90, 205)
+}
+#result
+{
+	font-size:100px;
+	text-align: center;
+    height: 100px;
+    width: 60%;
+    position: absolute;
+    left:20%;
+    top: 30%;
+    transform: translateX(-50) translateY(-50);
+	background: rgba(255,255,255,0.5);
+	padding: 20px;
+	border: 1px solid #00038c;
+	box-shadow: 0 0 8px 3px #fff;
+}

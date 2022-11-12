@@ -257,6 +257,52 @@ h3{
     .serviceBox{ margin: 0 0 40px; }
 }
 
+.menstrual{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.appointment{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.helpline{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.h-col{
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 12px;
+    cursor:pointer;
+    padding-bottom: 0%;
+}
+
+.h-col p{
+    background: linear-gradient(
+        rgba(178, 240, 255, 0.8),
+        rgba(171, 143, 255, 0.9)
+        );
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+
 .footer{
     width: 100%;
     text-align: center;

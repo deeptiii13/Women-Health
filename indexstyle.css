@@ -273,6 +273,26 @@ h3{
     padding-bottom: 80px;
 }
 
+.discussion{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.btn{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #1c2892;
+    padding: 15px 34px;
+    font-size: 13px;
+    background: #1c2892;
+    position: relative;
+    cursor: pointer;
+}
+
 .helpline{
     width: 80%;
     margin: auto;

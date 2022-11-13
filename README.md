@@ -1,5 +1,5 @@
 # Women-Health
-![A Glimpse](https://drive.google.com/file/d/158zW2rtFiGYstz7bB51P8hE_JRKsVPLq/view?usp=share_link)
+
 Nowadays women are at par with men in all spheres of life, they are working as successful doctors, engineers, professionals, entrepreneurs etc. Women do not feel free to talk about their health. In some cases it becomes life-threatening. Talking about women related health issues is still a big taboo in most parts of India. 
 
 Sections of the website include:
@@ -23,4 +23,8 @@ A discussion forum has been created for women where they can express their views
 Appointments can be scheduled with the doctors in order to discuss their problems without losing out on their identity if they wish.
 
 Helpline Numbers sections has been added in order to help the women with suicidal tendencies or women with labour pain etc.
+
+Technologies Used: HTML, CSS, JS
+
+
 
